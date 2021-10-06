@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1.5fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: rgb(185, 185, 185);
+    gap: 10px;
+}
+
+#main {
+    display: grid;
+}
+
+mainHeader {   
+    position: sticky;
+    top: 0;
+    display: grid;
+    height: 60px;
+    border: rgba(73, 73, 73, 0.658) 1px solid;
+    color: rgb(185, 185, 185);
+    text-align: start;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+
+.left-menu-item a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    text-indent: 20px;
+    line-height: 23px;
+
+}
+
+.left-menu-item img {
+    float: left;
+}
+
+.blueTweet {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+}
+
+.blueTweet h2 {
+    background-color: #1AF4FF;
+    color: black;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 38px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 15px;
+}
+
+.pic > img {
+    border-radius: 50px;
+}
+
+.text {
+    padding: 6px;
+}
+
+.moreIcon {
+    padding: 13px;
+}
+
+.tweetBox {
+    display: grid;
+    height: 200px;
+    border: rgba(73, 73, 73, 0.658) 1px solid;
+    border-bottom: none;
+    border-top: none;
+}
+
+.mainbox {
+    margin: 0px;
+    display: grid;
+    height: 400px;
+    border: rgba(73, 73, 73, 0.658) 0.1px solid;
+    border-bottom: none;
+    place-items: center;
+}
+
+#left {
+    max-height: 100vh;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    padding: 15px;
+}

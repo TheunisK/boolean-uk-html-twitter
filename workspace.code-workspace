@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Boolean Image Grid"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Twitter Grid Practice"
+	}
+}
