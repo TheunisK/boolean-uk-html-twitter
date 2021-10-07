@@ -64,7 +64,8 @@ mainHeader {
     gap: 15px;
 }
 
-.pic > img {
+.pic > img,
+.tweet-profile-image img {
     border-radius: 50px;
 }
 
@@ -82,6 +83,29 @@ mainHeader {
     border: rgba(73, 73, 73, 0.658) 1px solid;
     border-bottom: none;
     border-top: none;
+    grid-template-columns: 80px 1fr;
+}
+
+.tweet-profile-image {
+    padding: 10px;
+}
+
+.tweetBox-inner {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.tweet-text {
+    border-bottom: rgba(73, 73, 73, 0.658) 1px solid;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.74);
+    padding-left: 0px;
+}
+
+.tweetIcons {
+    display: inline-block;
+    padding-top: 45px;
 }
 
 .mainbox {
